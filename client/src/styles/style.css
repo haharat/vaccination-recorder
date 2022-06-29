@@ -1,0 +1,60 @@
+.main {
+  min-height: 93vh;
+  display: flex;
+  align-items: center;
+  background-image: url("https://images.pexels.com/photos/8383883/pexels-photo-8383883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+}
+
+.container{
+  opacity: 0.85;
+}
+
+.alert{
+  position:relative; 
+  left:80px;
+  width:150px; 
+  margin:0 auto;
+  color: primary;
+}
+
+.addPage{
+  text-align: center;
+  display: block;
+  background-image: url('https://images.pexels.com/photos/316466/pexels-photo-316466.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position: center;
+  background-size: cover;  
+}
+
+.addForm{ 
+  width: 35%;
+  display: inline-block;
+}
+
+.btn{
+  margin: 10px
+}
+
+.card{
+  display: inline-block;
+  margin-bottom: 30px;
+  float: none; 
+}
+.listCard{
+  width: 50%;
+}
+
+.card-container{
+  margin-top: 20px; 
+  float: none; 
+  margin-bottom: 10px; 
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.nav-text{
+  padding: 16px;
+}
