@@ -24,7 +24,7 @@ const EditRecord = ({ match }) => {
 
     useEffect(() => {
         const fetching = async () => {
-            const { data } = await axios.get(`http://localhost:5000/api/records/${recordId}`);
+            const { data } = await axios.get(`/api/records/${recordId}`);
             console.log(data)
             setVaxDate(new Date(data.vaxDate));
             setVaxType(data.vaxType);
