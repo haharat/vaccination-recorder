@@ -4,7 +4,7 @@
   "description": "vaccination record",
   "main": "server.js",
   "scripts": {
-    "build": "npm run build",
+    "build": "npm run build && cd client",
     "install-client": "cd client && npm install",
     "start": "node server",
     "server": "nodemon server",
